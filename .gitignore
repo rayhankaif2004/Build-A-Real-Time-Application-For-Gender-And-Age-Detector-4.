@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.mp4
+sign_language_detection/dataset/
+nationality_detection/dataset/

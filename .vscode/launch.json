@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Age & Gender Detector",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/AGE_GENDER_DETECTION-main/app.py",
+                "--server.port",
+                "8501"
+            ],
+            "cwd": "${workspaceFolder}/AGE_GENDER_DETECTION-main",
+            "console": "integratedTerminal",
+            "python": "${command:python.interpreterPath}"
+        },
+        {
+            "name": "Car Colour Detection",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/car_colour_detection/app.py",
+                "--server.port",
+                "8503"
+            ],
+            "cwd": "${workspaceFolder}/car_colour_detection",
+            "console": "integratedTerminal",
+            "python": "${command:python.interpreterPath}"
+        },
+        {
+            "name": "Sign Language Detection",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/sign_language_detection/app.py",
+                "--server.port",
+                "8502"
+            ],
+            "cwd": "${workspaceFolder}/sign_language_detection",
+            "console": "integratedTerminal",
+            "python": "${command:python.interpreterPath}"
+        }
+    ]
+}
